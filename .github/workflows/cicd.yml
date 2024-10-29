@@ -15,7 +15,7 @@ jobs:
           node-version: 16
 
       - name: Download dependecies
-        run: nmp install 
+        run: npm install 
 
       - name: Run Tests
         run: npm run test
